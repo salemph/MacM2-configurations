@@ -271,6 +271,6 @@ For academic/research use in nuclear engineering.
 
 ---
 
-**Built and tested on:** macOS 15.x (Sequoia) with Apple M2/M3/M4
-**GCC version:** 15.2 / 16.0.1
-**Target applications:** OpenMC, Geant4, ROOT, MOOSE, PETSc, Trilinos
+**Built and tested on:** macOS Version 26.4.1 (25E253) (Tahoe) with Apple M2
+**GCC version:** 15.2 / ( specially 16.0.1 , experimintal)
+**Target applications:** OpenMC, Geant4, ROOT, MOOSE, PETSc, Trilinos, VTK, Paraview, Libmesh
