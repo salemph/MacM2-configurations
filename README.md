@@ -44,8 +44,8 @@ nlab/
 
 ```bash
 # 1. Clone or create the directory structure
-mkdir -p /Volumes/nlab/{exec,source,data,scratch}
-mkdir -p /Volumes/nlab/source/{tarballs,git}
+mkdir -p /path/to/{exec,source,data,scratch}
+mkdir -p /path/to/source/{tarballs,git}
 
 # 2. Source your environment
 source ~/.zshrc
