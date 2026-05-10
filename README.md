@@ -22,8 +22,8 @@ nlab/
 │   ├── phase6.sh            # MPI (OpenMPI)
 │   ├── phase7.sh            # Extras (Doxygen, R, Octave)
 │   ├── phase8.sh            # Linear Algebra
-│   ├── phase9.sh            # Partitioning
-│   ├── phase10.sh           # I/O Libraries
+│   ├── phase9.sh            # I/O Libraries 
+│   ├── phase10.sh           # Partitioning
 │   ├── phase11.sh           # Mesh Tools
 │   ├── phase12.sh           # High-Level Solvers
 │   ├── phase13.sh           # Visualization
@@ -68,8 +68,8 @@ cd nlab
 | 6 | MPI (OpenMPI) | `mpi` | MPI wrappers required |
 | 7 | Extras | `gcc` | Doxygen, R, Octave |
 | 8 | Linear Algebra | `gcc` | OpenBLAS, FFTW (ScaLAPACK needs MPI sub-shell) |
-| 9 | Partitioning | `mpi` | METIS, ParMETIS need MPI |
-| 10 | I/O Libraries | `mpi` | HDF5, NetCDF parallel versions |
+| 9 | I/O Libraries   | `mpi` | HDF5, NetCDF parallel versions   |
+| 10 | Partitioning| `mpi` | METIS, ParMETIS need MPI|
 | 11 | Mesh Tools | `mpi` | MOAB, DAGMC need MPI |
 | 12 | High-Level Solvers | `mpi` | PETSc, Trilinos need MPI |
 | 13 | Visualization | `clang` | **VTK/ParaView need Cocoa/Metal** |
@@ -196,8 +196,8 @@ source ~/.zshrc
 | 6 | OpenMPI 5.0.x | MPI | 10 min |
 | 7 | Doxygen, R, Octave | GCC | 25 min |
 | 8 | OpenBLAS, ScaLAPACK, FFTW, GSL, Eigen, SuiteSparse | GCC/MPI | 35 min |
-| 9 | METIS, ParMETIS, hypre, Zoltan | MPI | 15 min |
-| 10 | HDF5, PnetCDF, NetCDF, CDF, ADIOS2 | MPI | 20 min |
+| 9 |  HDF5, PnetCDF, NetCDF, CDF, ADIOS2  | MPI | 20 min |
+| 10 |METIS, ParMETIS, hypre, Zoltan| MPI | 15 min |
 | 11 | MOAB, DAGMC, Mesquite, deal.ii | MPI | 25 min |
 | 12 | SUNDIALS, PETSc, Trilinos, libMesh, STRUMPACK | MPI | 60 min |
 | 13 | VTK, ParaView | Clang | 45 min |
